@@ -1,0 +1,15 @@
+:root {
+  --background-color: #fff;
+  --text-color: black;
+  --secondary-color: #eee;
+}
+
+.grid--row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 1rem;
+  grid-gap: 1rem;
+  margin-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
+}
